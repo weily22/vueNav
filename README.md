@@ -30,11 +30,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 横向的子菜单:
 
-![toolmenu](src\assets\toolmenu.jpg)
+![toolmenu](./src/assets/toolmenu.jpg)
 
 纵向的子菜单:
 
-![guidemenu](src\assets\guidemenu.jpg)
+![guidemenu](./src/assets/guidemenu.jpg)
 
 **布局方案：**
 
@@ -106,9 +106,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   </div>
 ```
 
-**细节处理**
+**细节处理**  
 
-  ![detail](src\assets\detail.jpg)
+![detail](./src/assets/detail.jpg)
 
 导航栏的底部有间隙，`li`包括的实际范围是蓝色部分，也就是说mouseover能作用的范围就是蓝色部分，这样的话当鼠标放置于红框框的地方，子菜单就不会显示。这里的处理方法是借用伪元素填充了这段距离。
 
